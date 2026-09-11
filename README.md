@@ -14,8 +14,9 @@ Source: [github.com/jpreed00/AutoSalvager](https://github.com/jpreed00/AutoSalva
 
 ## What it does
 
-- Registers five **[Unique]** station-only modules, **Auto-Salvager I–V**, and
-  stocks them at NPC **Industrial** markets (same place as the Auto-Miner).
+- Registers five station-only modules, **Auto-Salvager I–V**, and stocks
+  them at NPC **Industrial** markets (same place as the Auto-Miner). They are
+  not unique — a station can run more than one.
 - Each installed module launches a formation of salvage drones at a nearby wreck.
   Drones salvage on arrival and carry loot home; the next formation launches only
   once every drone from the previous one is back.

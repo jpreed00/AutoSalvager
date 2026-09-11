@@ -51,19 +51,19 @@ public class ItemRegistryMixin {
     @Unique
     private static void autosalvager$writeTiers() {
         ModuleList.write(AUTOSALVAGER_BASE_ID, 480, Color.WHITE, "Auto-Salvager I",
-            "[Unique] Salvage Max Tier: 1. Deploys 2 salvage drones to wrecks within 2500\u0001range; each recovers up to 1 item per trip (odds scale with tier vs. wreck toughness) and delivers it to station storage on return.",
+            "Salvage Max Tier: 1. Deploys 2 salvage drones to wrecks within 2500\u0001range; each recovers up to 1 item per trip (odds scale with tier vs. wreck toughness) and delivers it to station storage on return.",
             2, TypeTag.COMMON, 25.0, 500000L, 15.0f, true, true, false);
         ModuleList.write(AUTOSALVAGER_BASE_ID + 1, 481, Color.WHITE, "Auto-Salvager II",
-            "[Unique]  Salvage Max Tier: 2. Deploys 3 salvage drones to wrecks within 3000\u0001range; each recovers up to 1 item per trip (odds scale with tier vs. wreck toughness) and delivers it to station storage on return.",
+            "Salvage Max Tier: 2. Deploys 3 salvage drones to wrecks within 3000\u0001range; each recovers up to 1 item per trip (odds scale with tier vs. wreck toughness) and delivers it to station storage on return.",
             3, TypeTag.UNCOMMON, 30.0, 1200000L, 25.0f, true, true, false);
         ModuleList.write(AUTOSALVAGER_BASE_ID + 2, 482, Color.WHITE, "Auto-Salvager III",
-            "[Unique]  Salvage Max Tier: 3. Deploys 4 salvage drones to wrecks within 3500\u0001range; each recovers up to 2 items per trip (odds scale with tier vs. wreck toughness) and delivers them to station storage on return.",
+            "Salvage Max Tier: 3. Deploys 4 salvage drones to wrecks within 3500\u0001range; each recovers up to 2 items per trip (odds scale with tier vs. wreck toughness) and delivers them to station storage on return.",
             4, TypeTag.RARE, 35.0, 2400000L, 35.0f, true, true, false);
         ModuleList.write(AUTOSALVAGER_BASE_ID + 3, 483, Color.WHITE, "Auto-Salvager IV",
-            "[Unique]  Salvage Max Tier: 4. Deploys 5 salvage drones to wrecks within 4000\u0001range; each recovers up to 2 items per trip (odds scale with tier vs. wreck toughness) and delivers them to station storage on return.",
+            "Salvage Max Tier: 4. Deploys 5 salvage drones to wrecks within 4000\u0001range; each recovers up to 2 items per trip (odds scale with tier vs. wreck toughness) and delivers them to station storage on return.",
             5, TypeTag.EXOTIC, 40.0, 4800000L, 45.0f, true, true, false);
         ModuleList.write(AUTOSALVAGER_BASE_ID + 4, 484, Color.WHITE, "Auto-Salvager V",
-            "[Unique]  Salvage Max Tier: 5. Deploys 6 salvage drones to wrecks within 4500\u0001range; each recovers up to 3 items per trip (odds scale with tier vs. wreck toughness) and delivers them to station storage on return.",
+            "Salvage Max Tier: 5. Deploys 6 salvage drones to wrecks within 4500\u0001range; each recovers up to 3 items per trip (odds scale with tier vs. wreck toughness) and delivers them to station storage on return.",
             6, TypeTag.LEGENDARY, 45.0, 9600000L, 55.0f, true, true, false);
     }
 }
