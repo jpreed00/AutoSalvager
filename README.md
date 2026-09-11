@@ -1,5 +1,7 @@
 # AutoSalvager
 
+![Banner](banner.png)
+
 A mod for [Sector Space](https://store.steampowered.com/app/3978250/Sector_Space/)
 that adds tiered, station-only Auto-Salvager modules (I–V). Installed on a
 station, they automatically salvage nearby wrecks and deposit the recovered items
