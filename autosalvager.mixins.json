@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "autosalvager.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "ItemRegistryMixin",
+    "MarketStockMixin",
+    "AutoSalvageMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

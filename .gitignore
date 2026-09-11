@@ -1,0 +1,15 @@
+# Build artifacts
+/build/
+
+# javap scratch dumps (API research; this mod ships no .txt files)
+*.txt
+
+# Machine-specific build file (hardcoded JDK path, Windows-only)
+/Makefile
+
+# OS / editor cruft
+Thumbs.db
+.DS_Store
+*.swp
+.idea/
+.vscode/

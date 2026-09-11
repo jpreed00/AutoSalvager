@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "autosalvager",
+  "version": "1.0.0",
+  "name": "Auto Salvager",
+  "description": "Adds tiered, station-only Auto-Salvager modules (I-V) that automatically salvage nearby wrecks and deposit the recovered items into station storage, mirroring the game's Auto-Miner.",
+  "environment": "*",
+
+  "mixins": [
+    "autosalvager.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.18.4",
+    "java": ">=25",
+    "sector-space": ">=0.6.0.2"
+  }
+}
